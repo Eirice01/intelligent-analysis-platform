@@ -1,6 +1,6 @@
-# 大数据智能分析平台
+# A Analysis Data System 
 
-### 启动 🔥
+### start 🔥
 
 ```js
 yarn install
