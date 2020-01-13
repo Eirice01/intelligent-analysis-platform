@@ -1,0 +1,53 @@
+{
+  "statusCode": 200,
+  "message": "查询成功",
+  "data": {
+    "content": [
+      {
+        "delFlag": false,
+        "createTime": "2019-12-13 16:13:45",
+        "lastModifyTime": "2019-12-13 16:13:45",
+        "createUID": null,
+        "lastModifyUID": null,
+        "createName": null,
+        "id": 1,
+        "keyValue": "0-1",
+        "dicName": "状态类",
+        "dicValue": "state",
+        "dicDesc": "字典分类-状态类别",
+        "enableState": 1,
+        "sort": 1,
+        "pid": 0,
+        "dicLevel": 1,
+        "lastModifyName": null,
+        "enableValue": true
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "offset": 0,
+      "pageSize": 1,
+      "pageNumber": 0,
+      "paged": true,
+      "unpaged": false
+    },
+    "totalPages": 3,
+    "totalElements": 3,
+    "last": false,
+    "number": 0,
+    "size": 1,
+    "numberOfElements": 1,
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "first": true,
+    "empty": false
+  },
+  "o": null
+}

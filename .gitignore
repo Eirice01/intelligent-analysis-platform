@@ -1,0 +1,12 @@
+lib/
+node_modules/
+.idea/
+.vscode/
+.nyc_output/
+coverage/
+npm-debug.log
+.DS_Store
+yarn.log
+build
+yarn.lock
+package.lock

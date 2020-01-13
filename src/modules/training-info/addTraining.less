@@ -1,0 +1,75 @@
+#add-training{
+    width:1000px;
+    padding:10px;
+    padding-left:20px;
+    background:#0f2028;
+    opacity: 0.8;
+    overflow-y:auto;
+    color:#fff;
+    .form-required{
+        position:relative;
+    }
+    .err-item  {
+        .ant-select-selection,.ant-input,.ant-input:hover{
+            border-color: #f5222d !important;
+        }
+
+    }
+    .err-txt{
+        position: absolute;
+        bottom: -19px;
+        left: 85px;
+        color:#f5222d;
+        font-size:14px;
+    }
+    .xlry-box{
+        width:100%;
+        padding:0 4px;
+        min-height:30px;
+        max-height:200px;
+        border-radius: 5px;
+        border:1px solid #04987f;
+        flex-wrap:wrap;
+        overflow-y:auto;
+    }
+    .form-required::before {
+        position:absolute;
+        left: -10px;
+        top: 10px;
+        color: #f5222d;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+    }
+   .label-span {
+        display:inline-block;
+        color: #fff;
+        font-size:14px;
+        width:75px;
+    }
+    .xlzl-span{
+        display:inline-block;
+        color: #fff;
+        font-size:14px;
+    }
+    .ant-card{
+        background:#0b1a1f;
+        border-color: #04987f;
+        color:#fff;
+        .ant-card-head{
+            border-color: #04987f;
+            .ant-card-head-title{
+                color:#fff;
+            }
+            .ant-card-extra{
+                .ant-btn-icon-only{
+                    background:#04987f;
+                }
+            }
+        }
+    }
+}
+.detail-info{
+    color:#fff;
+}

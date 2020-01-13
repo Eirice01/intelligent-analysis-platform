@@ -1,0 +1,6 @@
+[{
+  "title":"全部","key":"all","children":[
+    {"title":"旅 1","key":"brigade1","children":[{"title":"营1","key":"battalion1-1","children":[{"title":"连1","key":"company1-1","children":[{"title":"分队1","key":"element1-1"}]}]}]},
+    {"title":"旅2","key":"brigade2","children":[{"title":"营2","key":"battalion2-1","children":[{"title":"连2","key":"company2-1","children":[{"title":"分队2","key":"element2-1"}]}]}]}
+  ]
+}]

@@ -1,0 +1,37 @@
+{
+ "columns":[
+   {
+     "title":"序号",
+     "dataIndex":"index",
+     "align":"center",
+     "width":60
+   },
+
+   {
+     "title":"物资名称",
+     "dataIndex":"name",
+     "align":"center"
+
+   },
+   {
+     "title":"物资类型",
+     "dataIndex":"tnumder",
+     "align":"center"
+   },
+   {
+     "title":"携行量",
+     "dataIndex":"bzn",
+     "align":"center"
+   },
+   {
+     "title":"运行量",
+     "dataIndex":"z",
+     "align":"center"
+   },
+   {
+     "title":"录入日期",
+     "dataIndex":"cz",
+     "align":"center"
+   }
+ ]
+}

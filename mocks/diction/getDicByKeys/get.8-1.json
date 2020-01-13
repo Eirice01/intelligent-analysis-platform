@@ -1,0 +1,27 @@
+{
+  "statusCode" : 200,
+  "message" : "查询成功",
+  "data" : [ {
+    "name" : "文本",
+    "value" : "string"
+  }, {
+    "name" : "大文本",
+    "value" : "text"
+  }, {
+    "name" : "时间",
+    "value" : "time"
+  }, {
+    "name" : "整数",
+    "value" : "int"
+  }, {
+    "name" : "小数",
+    "value" : "float"
+  }, {
+    "name" : "字典",
+    "value" : "diction"
+  }, {
+    "name" : "文件",
+    "value" : "file"
+  } ],
+  "o" : null
+}

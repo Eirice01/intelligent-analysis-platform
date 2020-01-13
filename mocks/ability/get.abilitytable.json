@@ -1,0 +1,65 @@
+{
+ "columns":[
+   {
+     "title":"序号",
+     "key":"index",
+     "align":"center",
+     "width":60
+   },
+
+   {
+     "title":"所属单位",
+     "dataIndex":"name",
+     "align":"center"
+
+   },
+   {
+     "title":"活动名称",
+     "dataIndex":"active",
+     "align":"center"
+   },
+   {
+     "title":"能力值",
+     "dataIndex":"ability",
+     "align":"center"
+   },
+   {
+     "title":"活动日期",
+     "dataIndex":"date",
+     "align":"center"
+   }
+ ],
+  "sourceData":[
+    {
+      "key":1,
+      "name":"a旅",
+      "active":"狙击训练",
+      "ability":90,
+      "date":"2019-02-03"
+    },
+    {
+      "key":2,
+      "name":"b旅",
+      "active":"5公里短跑",
+      "ability":100,
+      "date":"2019-02-03"
+    },
+    {
+      "key":3,
+      "name":"c旅",
+      "active":"射击",
+      "ability":100,
+      "date":"2019-02-03"
+    },
+    {
+      "key":4,
+      "name":"d旅",
+      "active":"射击",
+      "ability":100,
+      "date":"2019-02-03"
+    }
+  ],
+  "pagination":{
+
+  }
+}

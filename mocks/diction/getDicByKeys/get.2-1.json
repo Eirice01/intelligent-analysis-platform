@@ -1,0 +1,18 @@
+{
+  "statusCode" : 200,
+  "message" : "查询成功",
+  "data" : [ {
+    "name" : "基本信息录入",
+    "value" : "business_baseinfo"
+  }, {
+    "name" : "战备状态",
+    "value" : "business_readiness"
+  }, {
+    "name" : "训练状态",
+    "value" : "business_train"
+  }, {
+    "name" : "能力分析",
+    "value" : "business_capability"
+  } ],
+  "o" : null
+}

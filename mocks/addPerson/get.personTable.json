@@ -1,0 +1,80 @@
+{   
+    "columns":[
+        {
+            "title": "序号",
+            "dataIndex": "index"
+        },
+        {
+            "title": "姓名",
+            "dataIndex": "name"
+        },
+        {
+            "title": "人员编号",
+            "dataIndex": "personId"  
+        },
+        {
+            "title": "性别",
+            "dataIndex": "sex"
+        },
+        {
+            "title": "出生年月",
+            "dataIndex": "birth"
+        },
+        {
+            "title": "入伍时间",
+            "dataIndex": "enlisted"
+        },
+        {
+            "title":"人员类型",
+            "dataIndex":"personType"
+        },
+        {
+            "title": "操作时间",
+            "dataIndex": "operationTime"
+        }
+    ],
+    "dataSource":[
+        {
+            "index":1,
+            "photo":"",
+            "name":"王钢",
+            "personId":"10002202",
+            "personType":"关键岗位",
+            "sex":"男",
+            "birth":"1980-11-20",
+            "enlisted":"1999-01-01",
+            "militaryAppointment":"副营",
+            "militaryRank":"上尉",
+            "operationTime":"2019-10-01 09:00:00",
+            "certificateNum":"61032119801220xxx",
+            "nation":"汉",
+            "psychological":"健康",
+            "religious":"无",
+            "key":1
+        },
+        {
+            "index":2,
+            "photo":"",
+            "name":"刘建设",
+            "personId":"10002201",
+            "personType":"一般人员",
+            "sex":"男",
+            "birth":"1980-11-20",
+            "enlisted":"1999-01-01",
+            "militaryAppointment":"副营",
+            "militaryRank":"上尉",
+            "operationTime":"2019-10-01 09:00:00",
+            "certificateNum":"61032119801220xxx",
+            "nation":"汉",
+            "psychological":"健康",
+            "religious":"无",
+            "key":2
+        }
+    ],
+    "pagination":{
+        "total":2,
+        "pageSize":20,
+        "current":1,
+        "showQuickJumper":true
+    }
+}

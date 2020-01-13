@@ -1,0 +1,58 @@
+{
+ "columns":[
+   {
+     "title":"序号",
+     "key":"index",
+     "align":"center",
+     "width":60
+   },
+
+   {
+     "title":"部队名称",
+     "dataIndex":"name",
+     "align":"center"
+
+   },
+   {
+     "title":"部队编号",
+     "dataIndex":"tnumder",
+     "align":"center"
+   },
+   {
+     "title":"编制人数",
+     "dataIndex":"bzn",
+     "align":"center"
+   },
+   {
+     "title":"对口人数",
+     "dataIndex":"dk",
+     "align":"center"
+   },
+   {
+     "title":"称职人数",
+     "dataIndex":"cz",
+     "align":"center"
+   }
+ ],
+  "sourceData":[
+    {
+      "key":1,
+      "name":"猛虎旅",
+      "tnumder":"a-01",
+      "bzn":14000,
+      "dk":13400,
+      "cz":13880
+    },
+    {
+      "key":2,
+      "name":"第二师",
+      "tnumder":"b-02",
+      "bzn":1000,
+      "dk":980,
+      "cz":980
+    }
+  ],
+  "pagination":{
+
+  }
+}

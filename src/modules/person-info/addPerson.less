@@ -1,0 +1,49 @@
+@photoW:150px;
+@photoH:150px;
+.addPerson-form{
+    width:1000px;
+    padding:10px;
+    height:100%;
+    overflow-y:auto;
+    background: #0b1a1f;
+    color:#fff;
+    .photoBox{
+        width:@photoW;
+        height:@photoH;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid #04987f;
+        .ant-upload-picture-card-wrapper{
+            width:auto;
+            .ant-upload{
+                color:#fff;
+            }
+        }
+    }
+    .form-div{
+        width:calc(100% - @photoW);
+    }
+    .ant-form-item {
+        display: flex;
+    }
+    .ant-form-item-control-wrapper {
+        flex: 1;
+    }
+    .ant-form-item-label{
+        min-width:80px;
+    }
+    .ant-tag {
+        background: rgb(4, 152, 127);
+        border-style: dashed;
+        border-color: rgb(4, 152, 127);
+        color: rgb(255, 255, 255);
+    }
+    textarea{
+        resize:none;
+    }
+}
+
+.detail-info{
+    color:#fff;
+}

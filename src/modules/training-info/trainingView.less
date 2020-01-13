@@ -1,0 +1,27 @@
+@leftW:380px;
+#training-view{
+    width:100%;
+    .ant-pagination,.ant-pagination-prev,.ant-pagination-next{
+        color:#fff;
+      }
+    .left-side{
+        width:@leftW;
+        .tree-container{
+            color:#000;
+        }
+    }
+    .right-side{
+        width:calc(100% - @leftW);
+        padding:10px;
+        overflow:auto;
+        .search-container{
+            border: 1px solid #04987f;
+            border-radius: 6px;
+            color:rgba(0,0,0,.8);
+            font-size:14px;
+        }
+        .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+            padding: 10px 10px;
+        }
+    }
+}

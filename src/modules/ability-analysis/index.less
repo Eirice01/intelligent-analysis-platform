@@ -1,0 +1,70 @@
+.ability-analysis{
+    width: 100%;
+    justify-content:space-between!important;
+    >.ability-left{
+        padding-top:15px;
+        padding-left:15px;
+        width: 380px;
+        height: 100%;
+        overflow: auto;
+        border-right: 1px solid #125970;
+        .tree-container{
+            border-right:1px solid transparent;
+         }
+    }
+    .ability-right{
+        padding:20px;
+        width:calc(100% - 380px);
+        overflow:auto;
+        .all-ability-container{
+            height:430px;
+            .all-ability{
+                height:420px;
+            }
+        }
+        .ratio-trend-container{
+            height:calc(100% - 430px);
+        }
+        @media screen and (min-width:1399px) and (max-width:1601px){
+            .all-ability-container{
+                height:350px;
+                .all-ability{
+                    height:340px;
+                }
+            }
+        }
+         @media screen and (min-width:1399px) and (max-width:1601px){
+            .ratio-trend-container{
+                height:calc(100% - 350px);
+             }
+        }
+        @media screen and (min-height:1081px){
+            .all-ability-container{
+                height:600px;
+                .all-ability{
+                    height:590px;
+                }
+            }
+        }
+         @media screen and (min-height:1081px){
+            .ratio-trend-container{
+                height:calc(100% - 600px);
+             }
+        }
+    }
+    .title-container{
+        height:20px;
+        .title-left{
+            display:inline-block;
+            width:8px;
+            height:20px;
+            background:#01e8cd;
+            margin-right:12px;
+        }
+    }
+}
+.ant-calendar-range .ant-calendar-footer-extra{
+     span{
+        cursor:pointer !important;
+    }
+}

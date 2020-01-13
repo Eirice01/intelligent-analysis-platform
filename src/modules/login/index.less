@@ -1,0 +1,141 @@
+.login-contaniner{
+
+  background: url('../../assets/images/login.png') center center no-repeat;
+  background-size:cover;
+  color:#fff;
+  position:relative;
+  .left-part{
+      margin-right:80px;
+      position:absolute;
+      .bed{
+        margin-bottom:20px;
+        margin-left:20px;
+      }
+      left:8%;
+  }
+  .login-info{
+    position:absolute;
+    right:10%;
+    top:0;
+    bottom:0;
+    .logo-title{
+     margin-top:30%;
+    }
+    .logo{
+      margin-bottom:12px;
+    }
+  }
+  .form-container{
+    width:400px;
+    padding-left:30px;
+    position:absolute;
+    top:50%;
+    margin-top:-90px;
+    .login-box{
+      position:absolute;
+      width:100%;
+      height:310px;
+      left:-5px;
+    }
+    .login-form{
+        .angle{ position:absolute;}
+        .angle1{ left:-2px;top:-15px;}
+        .angle2{ right:-2px;top:-15px;}
+        .angle3{ left:-2px;top:20px;}
+        .angle4{ right:-2px;top:20px;}
+        .ant-form-explain{ margin-left:33px;}
+        .has-error .ant-input-affix-wrapper .ant-input{ background:rgba(255,255,255,.1);}
+        .ant-form-item { 
+          margin-bottom: 10px;
+          .ant-form-item-control-wrapper{height:65px;}
+        }
+        .ant-input{
+            padding-left: 30px;
+            padding-right: 20px;
+            background:#004851 !important;
+            border: 0;
+            height:46px;
+            width:330px;
+            border-radius:0;
+            &::placeholder{
+              color:#fff
+            }
+            &:hover{
+              background:#004851;
+            }
+            &:focus{
+              border:0;
+            }
+        }
+        .ant-input-suffix{ display:none;}
+      }
+  }
+}
+@font-face{
+  font-family:'myFontName';
+  src:url('../../assets/font/sanjiyihei.ttf')
+}
+@media screen and (min-height:1081px) and (min-width:1921px) {
+  .login-contaniner{
+    .left-part{left:20%;bottom:6%;position:absolute;}
+    .login-info{right:26%; position:absolute;
+        .logo-title{ margin-top:70%;}
+    }
+    #myearth{
+      margin-bottom:100px;
+    }
+  }
+}
+@media screen and (min-width:1399px) and (max-width:1601px){
+  .login-contaniner{
+    #myearth {
+      top:24%;
+    }
+    .left-part{
+      .bed{
+         margin-top:40px;
+         margin-bottom:-34px;
+      }
+    }
+  }
+}
+  #myearth {
+      width: 660px;
+      height: 660px;
+      margin-left:6%;
+      top:15%;
+      max-height: 100vw;
+      /*overflow: hidden;*/
+      pointer-events: none;
+      opacity: 0;
+      transition: all 1s ease-in-out;
+      .satellite{
+        position:absolute;
+        bottom:10%;
+        left:-32px;
+      }
+      /*right:-11%;*/
+    }
+    #myearth canvas {
+      filter: brightness(2);
+      transform: scale(1);
+      transition: filter 3.5s ease-in-out, transform 1.5s ease-in-out;
+    }
+    #glow {
+      width: 530px;
+      height: 530px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      max-width: 100vh;
+      max-height: 100vw;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(ellipse at center, rgba(0,156,255,0.1) 33%,rgba(0,156,255,0.12) 52%,rgba(0,156,255,0.05) 54%,rgba(0,156,255,0) 70%);
+      z-index: 200;
+      pointer-events: none;
+      opacity: 1;
+      transition: opacity 4s ease-in-out;
+    }
+    #myearth.earth-ready #glow {
+      opacity: 0.5;
+    }

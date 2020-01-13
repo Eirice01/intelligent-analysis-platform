@@ -1,0 +1,207 @@
+{
+  "statusCode": 200,
+  "message": "查询成功",
+  "data": {
+    "title": "全部",
+    "name": "全部",
+    "key": "all",
+    "expand": true,
+    "disabled": false,
+    "disableCheckbox": false,
+    "selected": false,
+    "checked": false,
+    "loading": false,
+    "children": [
+      {
+        "id": "1",
+        "title": "状态类",
+        "name": "状态类",
+        "key": "0-1",
+        "parentId": "0",
+        "expand": true,
+        "disabled": false,
+        "disableCheckbox": false,
+        "selected": false,
+        "checked": false,
+        "loading": false,
+        "children": []
+      },
+      {
+        "id": "2",
+        "title": "业务类",
+        "name": "业务类",
+        "key": "0-2",
+        "parentId": "0",
+        "expand": true,
+        "disabled": false,
+        "disableCheckbox": false,
+        "selected": false,
+        "checked": false,
+        "loading": false,
+        "children": [
+          {
+            "id": "3",
+            "title": "业务模块",
+            "name": "业务模块",
+            "key": "2-1",
+            "parentId": "2",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "39",
+            "title": "装备类型(大类)",
+            "name": "装备类型(大类)",
+            "key": "2-2",
+            "parentId": "2",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "title": "单选框",
+        "name": "单选框",
+        "key": "0-4",
+        "parentId": "0",
+        "expand": true,
+        "disabled": false,
+        "disableCheckbox": false,
+        "selected": false,
+        "checked": false,
+        "loading": false,
+        "children": [
+          {
+            "id": "23",
+            "title": "性别",
+            "name": "性别",
+            "key": "22-1",
+            "parentId": "22",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "26",
+            "title": "心理素质",
+            "name": "心理素质",
+            "key": "22-2",
+            "parentId": "22",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "选择类",
+        "name": "选择类",
+        "key": "0-3",
+        "parentId": "0",
+        "expand": true,
+        "disabled": false,
+        "disableCheckbox": false,
+        "selected": false,
+        "checked": false,
+        "loading": false,
+        "children": [
+          {
+            "id": "9",
+            "title": "表字段类型",
+            "name": "表字段类型",
+            "key": "8-1",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "17",
+            "title": "类别",
+            "name": "类别",
+            "key": "8-2",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "30",
+            "title": "人员类型",
+            "name": "人员类型",
+            "key": "8-3",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "33",
+            "title": "职位",
+            "name": "职位",
+            "key": "8-4",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "35",
+            "title": "军衔",
+            "name": "军衔",
+            "key": "8-5",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          },
+          {
+            "id": "37",
+            "title": "物资类型",
+            "name": "物资类型",
+            "key": "8-6",
+            "parentId": "8",
+            "expand": false,
+            "disabled": false,
+            "disableCheckbox": false,
+            "selected": false,
+            "checked": false,
+            "loading": false
+          }
+        ]
+      }
+    ]
+  },
+  "o": null
+}

@@ -1,0 +1,116 @@
+@dashboard-card-bg: #001721;
+@dashboard-title-color: #00F1D6;
+@dashboard-content-color: #0099CD;
+
+.dashboard-left, .dashboard-right {
+  position: absolute;
+  z-index: 100;
+  top: 92px;
+  height: calc(100% - 94px);
+  padding: 10px 0;
+}
+.dashboard-right { right: 13px; }
+.dashboard-left { left: 13px; }
+
+// 标题样式
+.dashboardTitle {
+  position: relative;
+  padding-top: 10px;
+  h3{
+    padding-left: 30px;
+    color: @dashboard-title-color;
+    height: 20px;
+    line-height: 25px;
+  }
+  h3:before{
+    content: "";
+    width: 5px;
+    height: 25px;
+    background: @dashboard-title-color;
+    position: absolute;
+    left: 5px;
+    font-size: 20px;
+  }
+}
+
+// 旅信息样式
+.military-info, .person-info, .train-info, .combat-dashboard-info, .ability-info{
+  background:@dashboard-card-bg;
+  opacity: 0.7;
+}
+.military-introduce , .history-info, .mission-task, .force-features, .geolocation-info {
+  padding: 0 5px 5px 5px;
+  .title{
+    font-size: 14px;
+    line-height: 21px;
+    color: @dashboard-title-color;
+  }
+  .content { color: @dashboard-content-color; position: relative;}
+}
+.military-introduce {
+  .content{
+    cursor:pointer;
+    img {width: 120px; height: 105px}
+    .describe{
+      color: @dashboard-content-color; height: 105px; padding-left: 10px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
+      -webkit-line-clamp: 5; -webkit-box-orient: vertical; text-overflow: ellipsis;
+      &:hover{ color: @dashboard-title-color; }
+    }
+  }
+}
+.history-info{
+  margin-top: 5px;
+  .content {
+    position: relative;
+    .slide { 
+      height: 105px; width: 120px; text-align: center; 
+      img { max-width: 100%;  }
+    }
+  }
+  .swiper-button-next, .swiper-button-prev { font-size: 20px; }
+}
+
+.mission-task {
+  .content {
+    color: @dashboard-content-color; height: auto; width: 100%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box;-webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    &:hover{ color: @dashboard-title-color; }
+  }
+}
+
+// 人员信息样式
+.person-info {
+  .personItem-info {
+    font-size: 12px;
+    line-height: 18px;
+    .content {
+      .imgBox { width: 88px; height: 80px; }
+      .describe{
+        b {color: @dashboard-title-color;}
+        color: @dashboard-content-color;
+        overflow: hidden; text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+// 战备状态
+.combat-dashboard-info{
+  color: @dashboard-title-color;
+  .personFiveRate, .deviceFiveRate{
+    position: relative;
+  }
+}
+
+// 训练
+.train-info {
+  .trainingDetail{
+    color: @dashboard-title-color;
+    span{ padding-left: 20px;}
+  }
+}
+// 能力分析
+.ability-info{
+  .radar-chart-box {position: relative;}
+}
+
+
